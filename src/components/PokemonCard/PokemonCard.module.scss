@@ -1,0 +1,30 @@
+.single_pokemon_link {
+  padding: 15px;
+}
+
+.pokemon_sprite_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 140px !important;
+}
+
+.noSpriteGif {
+  width: 80px;
+}
+
+@media (max-width: 808px) {
+  .single_pokemon_link {
+    width: 50% !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .single_pokemon_link {
+    width: 100% !important;
+    margin: auto;
+    div:nth-child(1) {
+      margin: 0 auto !important;
+    }
+  }
+}
